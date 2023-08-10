@@ -1,0 +1,77 @@
+<head>
+    <link rel="stylesheet" href="css/signup.css">
+    <style>
+        body {
+            background-image: url('starbucks3.png');
+            background-size: cover;
+            background-position: center;
+        }
+        main {
+            text-align: center;
+            margin: 20px auto;
+        }
+        .input-field {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            margin-bottom: 20px;
+        }
+        .input-field label {
+            font-size: 19px;
+            margin-right: 15px;
+            text-align: center;
+        }
+        input[type="text"],
+        input[type="password"] {
+            font-size: 18px;
+            padding: 10px;
+            flex-grow: 1;
+        }
+        input[type="submit"] {
+            font-size: 16px;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color:  #006633;
+            color: #FFF;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .update-text {
+            color: #006633;
+            font-size: 26px;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <form action="update_member.php" method="post">
+            <p class="update-text">Update Password</p>
+            <div class="input-field">
+                <label for="id">ID:</label>
+                <input type="text" id="id" name="id" value="">
+            </div>
+            <div class="input-field">
+                <label for="currentPassword">Current Password:</label>
+                <input type="password" id="currentPassword" name="currentPassword" value="">
+            </div>
+            <div class="input-field">
+                <label for="newPassword">New Password:</label>
+                <input type="password" id="newPassword" name="newPassword" value="">
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+</body>
+</html>
+

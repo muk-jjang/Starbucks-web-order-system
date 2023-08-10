@@ -1,0 +1,67 @@
+body {
+    background-color: #006633;
+    margin: 0;
+    padding: 0;
+}
+
+.login {
+    width: 400px;
+    margin: 200px auto;
+    background-color: #FFF;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.login h1 {
+    margin-top: 0;
+    color: #006633;
+    font-size: 24px;
+}
+
+.login hr {
+    border-color: #006633;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #CCC;
+    box-sizing: border-box;
+}
+
+.login button {
+    background-color: #006633;
+    color: #FFF;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login button:hover {
+    background-color: #004d33;
+    color: #FFF;
+}
+
+.login a.sign-up {
+    background-color: #FFF;
+    color: #006633;
+    border: 1px solid #006633;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.login a.sign-up:hover {
+    background-color: #006633;
+    color: #FFF;
+}

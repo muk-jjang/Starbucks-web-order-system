@@ -1,0 +1,15 @@
+/* CSS styles for the table */
+table {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+table th,
+table td {
+    padding: 10px;
+}
+
+.title {
+    text-align: center;
+}

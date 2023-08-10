@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="UTF-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/signup.css"> 
+    <style>
+        body {
+            background-image: url('starbucks2.png');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+
+<body>
+<form method="post" action="sign_up.php">
+    <h2>Sign Up</h2>
+    <table>
+        <tr>
+            <td><label for="id">ID</label></td>
+            <td><input type="text" id="id" name="id" required></td>
+        </tr>
+
+        <tr>
+            <td><label for="password">Password</label></td>
+            <td><input type="password" id="pw" name="password" required></td>
+        </tr>
+
+        <tr>
+            <td><label for="name">Name</label></td>
+            <td><input type="text" id="name" name="name" required></td>
+        </tr>
+
+        <tr>
+            <td><label for="gender">Gender</label></td>
+            <td>
+                <input type="radio" name="gender" id="gender" value="female">여성
+                <input type="radio" name="gender" id="gender" value="male">남성
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="tel">Tel</label></td>
+            <td>
+                <input type="text" id="tel" name="tel" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="email">Email</label></td>
+            <td>
+                <input type="email" id="email" placeholder="example@.com" name="email" required>
+            </td>
+        </tr>
+    </table>
+    <button>Submit</button>
+</form>
+</body>
+</html>
+
